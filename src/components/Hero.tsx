@@ -79,7 +79,7 @@ const Hero = () => {
               <Mail className="w-6 h-6 text-gray-300 group-hover:text-white" />
             </a>
             <a
-              href="https://linkedin.com/in/muhammad-kahfi/"
+              https://linkedin.com/in/muhammad-kahfi-2ab104297/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn profile"
