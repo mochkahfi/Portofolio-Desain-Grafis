@@ -123,7 +123,7 @@ const Contact = () => {
               <h4 className="text-lg font-semibold text-white mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://linkedin.com/in/muhammad-kahfi/" 
+                  https://linkedin.com/in/muhammad-kahfi-2ab104297/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-white/5 backdrop-blur-sm rounded-lg border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-110 group"
