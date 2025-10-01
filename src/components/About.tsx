@@ -18,7 +18,7 @@ const About = () => {
             <div className="w-80 h-80 mx-auto relative">
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-blue-500/20 rounded-full blur-xl" />
               <div className="relative w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-full border border-white/10 flex items-center justify-center">
-              <img src="Asset/AboutMe.png" alt="Profile" className="w-max-content h-auto rounded-full object-cover shadow-lg" />
+              <img src="/Asset/AboutMe.png" alt="Profile" className="w-max-content h-auto rounded-full object-cover shadow-lg" />
               </div>
             </div>
           </div>
