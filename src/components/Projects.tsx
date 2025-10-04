@@ -5,7 +5,7 @@ function Projects() {
     {
       title: "Logo Design | Arba Annur",
       description: "Desain identitas visual untuk perusahaan travel haji dan umrah.",
-      image: "https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/Asset/Artboard 7.png",
       technologies: ["Photoshop", "Illustrator", "Canva",],
       timeline: "15 Project",
       teamSize: "7 Hari",
@@ -21,7 +21,7 @@ function Projects() {
     {
       title: "Design Event | DIKBUD Tangsel FC",
       description: "Membuat berbagai kebutuhan desain untuk event DIKBUD Tangsel FC. Desain meliputi Poster, Spanduk, Banner, dan Certificate.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/Asset/Artboard 1.jpg",
       technologies: ["Photoshop", "Illustrator", "CorelDraw", "Pixellab",],
       timeline: "16 Project",
       teamSize: "3 Hari",
@@ -35,7 +35,7 @@ function Projects() {
     {
       title: "Branding Toko Shopee | PT NATURINDO",
       description: "Desain visual branding untuk toko resmi PT Naturindo di platfrom Shopee. Proyek ini mencakup 3 akun toko online, masing-masing memiliki 197 aset visual seperti, Logo, Thumbnail, Banner. Seluruh desain dikembangkan berdasarkan identitas brand Naturindo sebagai penyedia jamu herbal modern terpercaya.",
-      image: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/Asset/Artboard 4.png",
       technologies: ["Photoshop", "Illustrator", "Canva"],
       timeline: "591 Project",
       teamSize: "3 minggu",
@@ -51,7 +51,7 @@ function Projects() {
     {
       title: "Vector Art Illustration | Karya Pribadi",
       description: "Eksplorasi seni ilustrasi vektor. Proyek ini bertujuan untuk mengasah keterampilan ilustrasi digital dan menciptakan karya seni yang menarik.",
-      image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/Asset/Artboard 2.jpg",
       technologies: ["Illustrator", "CorelDraw", "Infinite Design", "Infinite Painter"],
       timeline: "14 Project",
       teamSize: "Eksperimen Pribadi",
@@ -82,11 +82,11 @@ function Projects() {
             <div key={index} className="group">
               <div className="bg-white/5 backdrop-blur-sm rounded-xl border border-white/10 overflow-hidden hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/10">
                 {/* Project Image */}
-                <div className="relative overflow-hidden h-48">
+                <div className="relative overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                    className="w-full h-auto object-contain group-hover:scale-110 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute top-4 right-4 flex space-x-2">
                   </div>

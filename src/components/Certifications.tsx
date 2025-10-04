@@ -19,7 +19,7 @@ const Certifications = () => {
       date: "03 Februari 2024",
       credentialId: "-",
       description: "Sharing time special dari designer kita akan jadi apa.",
-      image: "/Asset/Sertifikat Peserta Workshop.jpg"
+      image: "/Asset/SERTIFIKAT SHARING BRANDING Muhammad Kahfi.jpg"
     },
     {
       name: "Community Desain Grafis (Online Class)",
@@ -27,7 +27,7 @@ const Certifications = () => {
       date: "17 Maret 2024",
       credentialId: "-",
       description: "Cara memenangkan ramadhan sebagai desain grafis.",
-      image: "/Asset/SERTIFIKAT SHARING BRANDING Muhammad Kahfi.jpg"
+      image: "/Asset/Sertifikat Peserta Workshop.jpg"
     }
   ];
 
